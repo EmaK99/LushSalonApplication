@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".SpaActivity">
+    <TextView
+        android:id="@+id/tvspa0"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Here are our spa services:"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:layout_marginTop="50dp"/>
+
+
+    <RadioGroup
+        android:id="@+id/radio_group_spa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvspa0"
+        android:layout_marginTop="50dp">
+
+        <RadioButton
+            android:id="@+id/rbspa1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Back Massage - 10 OMR"
+            android:textSize="20dp" />
+
+        <RadioButton
+            android:id="@+id/rbspa2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Neck, Head, Shoulder - 10 OMR"
+            android:textSize="20dp" />
+
+        <RadioButton
+            android:id="@+id/rbspa3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Full Body - 20 OMR"
+            android:textSize="20dp" />
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/rbspa4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Confirm"
+        android:layout_below="@+id/radio_group_spa"
+        android:textSize="20dp"
+        android:layout_marginTop="50dp"/>
+
+</RelativeLayout>

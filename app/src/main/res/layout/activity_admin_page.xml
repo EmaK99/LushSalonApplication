@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AdminPageActivity">
+
+    <TextView
+        android:id="@+id/ViewDataBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="260dp"
+        android:gravity="center"
+        android:text="View User Data"
+        android:textSize="20dp" />
+    <EditText
+        android:id="@+id/AdminDeledit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter username to delete user"
+        android:textSize="20dp"
+        android:layout_below="@+id/ViewDataBtn"
+        android:layout_marginTop="50dp"/>
+    <Button
+        android:id="@+id/AdminDelbtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Delete Account"
+        android:textSize="20dp"
+        android:layout_below="@+id/AdminDeledit"
+        android:layout_marginTop="50dp"/>
+
+</RelativeLayout>

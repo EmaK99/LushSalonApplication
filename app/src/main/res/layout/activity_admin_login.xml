@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AdminLoginActivity">
+
+    <TextView
+        android:id="@+id/AdminMsg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter admin username and password"
+        android:textSize="20dp"
+        android:layout_marginTop="50dp"/>
+    <EditText
+        android:id="@+id/AdminNamebtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Admin Username"
+        android:layout_below="@+id/AdminMsg"
+        android:layout_marginTop="50dp"/>
+    <EditText
+        android:id="@+id/AdminPasswordbtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Admin Password"
+        android:layout_below="@+id/AdminNamebtn"
+        android:layout_marginTop="50dp"/>
+    <Button
+        android:id="@+id/AdminConfirmbtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login as Admin"
+        android:textSize="20dp"
+        android:layout_below="@+id/AdminPasswordbtn"
+        android:layout_marginTop="50dp"/>
+
+
+</RelativeLayout>

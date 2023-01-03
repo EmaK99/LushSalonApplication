@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".HairCareActivity">
+
+    <TextView
+        android:id="@+id/tvhc0"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Here are our hair care services:"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:layout_marginTop="50dp"/>
+
+
+    <RadioGroup
+        android:id="@+id/radio_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvhc0"
+        android:layout_marginTop="50dp">
+
+        <RadioButton
+            android:id="@+id/rbhc1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Haircut - 6 OMR"
+            android:textSize="20dp" />
+
+        <RadioButton
+            android:id="@+id/rbhc2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Root Color - 15 OMR"
+            android:textSize="20dp" />
+
+        <RadioButton
+            android:id="@+id/rbhc3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Keratine - 50 OMR"
+            android:textSize="20dp" />
+
+        <RadioButton
+            android:id="@+id/rbhc4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hair Spa - 10 OMR"
+            android:textSize="20dp" />
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/rbhc5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Confirm"
+        android:layout_below="@+id/radio_group"
+        android:textSize="20dp"
+        android:layout_marginTop="50dp"/>
+
+
+</RelativeLayout>

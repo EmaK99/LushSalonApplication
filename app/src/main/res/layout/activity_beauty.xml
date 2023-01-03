@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BeautyActivity">
+    <TextView
+        android:id="@+id/tvbeau0"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Here are our beauty treatments:"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:layout_marginTop="50dp"/>
+
+
+    <RadioGroup
+        android:id="@+id/radio_group_beauty"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvbeau0"
+        android:layout_marginTop="50dp">
+
+        <RadioButton
+            android:id="@+id/rbbeau1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Manicure - 6 OMR"
+            android:textSize="20dp" />
+
+        <RadioButton
+            android:id="@+id/rbbeau2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pedicure - 9 OMR"
+            android:textSize="20dp" />
+
+        <RadioButton
+            android:id="@+id/rbbeau3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Paraffin Manicure - 10 OMR"
+            android:textSize="20dp" />
+
+        <RadioButton
+            android:id="@+id/rbbeau4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Spa Pedicure - 18 OMR"
+            android:textSize="20dp" />
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/rbbeau5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Confirm"
+        android:layout_below="@+id/radio_group_beauty"
+        android:textSize="20dp"
+        android:layout_marginTop="50dp"/>
+
+</RelativeLayout>
